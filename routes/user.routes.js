@@ -4,6 +4,8 @@ import User from "../models/user.model.js";
 import mongoose from "mongoose";
 import cloudinary from "../config/cloudinary.js";
 import jwt from "jsonwebtoken";
+import cors from "cors";
+
 
 const router = express.Router();
 
